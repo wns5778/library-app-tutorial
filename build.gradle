@@ -25,7 +25,3 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-tasks.named('compileJava') {
-    options.fork = true // 컴파일러를 별도 프로세스로 실행
-    options.forkOptions.executable = file(System.getenv('JAVA_HOME') + '/bin/javac').getAbsolutePath()
-}
