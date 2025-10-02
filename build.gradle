@@ -9,9 +9,9 @@ java {
     sourceCompatibility = JavaVersion.VERSION_11
 
     // Toolchain 기능을 사용하여 Java 11을 명확하게 지정
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
-    }
+    //toolchain {
+    //    languageVersion = JavaLanguageVersion.of(11)
+    //}
 }
 
 group = 'com.example'
