@@ -5,13 +5,8 @@ plugins {
 }
 
 java {
-    // 소스 호환성 설정은 그대로 유지
     sourceCompatibility = JavaVersion.VERSION_11
-
-    // Toolchain 기능을 사용하여 Java 11을 명확하게 지정
-    //toolchain {
-    //    languageVersion = JavaLanguageVersion.of(11)
-    //}
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 group = 'com.example'
